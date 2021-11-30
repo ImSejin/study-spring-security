@@ -1,0 +1,20 @@
+spring:
+  thymeleaf:
+    enabled: true
+    encoding: "UTF-8"
+    prefix: "classpath:/templates/view/"
+    suffix: ".html"
+  security:
+    user:
+      name: "user"
+      password: "1234"
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+      poll-interval: "2s"
+#  mvc:
+#    view:
+#      prefix: "classpath:/templates/view/"
+#      suffix: ".html"
